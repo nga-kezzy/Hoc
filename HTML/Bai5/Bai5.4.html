@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bài 5.4 Đăng ký du lịch</title>
+    <link rel="stylesheet" href="style5.4.css">
+</head>
+
+<body>
+    <h1>Đăng ký du lịch</h1>
+    <form>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td>Họ và tên</td>
+                <td class="height">
+                    <input type="text" class="width">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td class="height">
+                    <input type="text" class="width">
+                </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td class="height">
+                    <input type="number" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>Khách du lịch</td>
+                <td class="height">
+                    <input name="du_lich" type="checkbox">Việt Nam
+                    <input name="du_lich" type="checkbox">Nước ngoài
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td class="height">
+                    <select name="tour">
+                        <optgroup label="Miền Bắc">
+                            <option value="0">Hà Nội-Hạ Long-Sapa</option>
+                            <option value="1">Hà Nội-Chùa Hương-Ninh Bình</option>
+                            <option value="2">Hà Nội-Cát Bà-Tuần Châu</option>
+                        </optgroup>
+                        <optgroup label="Miền Trung">
+                            <option value="0">Huế-Bạch xã-Đà Nẵng</option>
+                            <option value="1">Nha Trang-Đà Lạt</option>
+                            <option value="2">Buôn Mê Thuật-Gia Lai-Kom Tum</option>
+                        </optgroup>
+                        <optgroup label="Miền Nam">
+                            <option value="0">TP.HCM-Mỹ Tho</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td class="height">
+                    <input name="phuong_tien" type="radio">Máy bay
+                    <input name="phuong_tien" type="radio">Xe ô tô
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Số lượng đoàn khách</legend>
+                        <div>
+                            Người lớn <input type="number" min="0" class="small"> Trẻ em <input type="number" min="0" class="small">
+                        </div>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea name="gi_chu" id="1" cols="40" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="center">
+                    <input type="submit" value="Đồng ý">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

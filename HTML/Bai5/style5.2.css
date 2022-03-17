@@ -1,0 +1,47 @@
+table {
+    width: 650px;
+    margin: auto;
+    background-color: cyan;
+}
+
+.color {
+    background-color: #fc6;
+    font-weight: bold;
+}
+
+.width {
+    width: 50px;
+    border: 1px solid blue;
+}
+
+.max {
+    width: 350px;
+    border: 1px solid blue;
+}
+
+.mid {
+    width: 280px;
+    border: 1px solid blue;
+}
+
+.min {
+    width: 230px;
+    border: 1px solid blue;
+}
+
+.click {
+    border: 1px solid blue;
+}
+
+.padding_five {
+    padding-top: 5px;
+}
+
+.padding {
+    padding-top: 10px;
+}
+
+#ngay {
+    min="1";
+    max="30";
+}

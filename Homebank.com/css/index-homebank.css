@@ -1,0 +1,135 @@
+    /* body */
+    
+    .main {
+        width: 780px;
+        margin: auto;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+    /* header */
+    
+    .img-header {
+        float: left;
+    }
+    
+    .text-header {
+        width: 780px;
+        background-color: blue;
+    }
+    
+    .menu {
+        list-style-type: none;
+        width: 780px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .item {
+        float: left;
+        margin: 5px;
+    }
+    
+    .item a {
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #ff0;
+        text-decoration: underline;
+    }
+    /* container */
+    /*side bar left*/
+    
+    .side-bar-left {
+        width: 140px;
+        height: 800px;
+        float: left;
+        text-align: center;
+        background-color: dodgerblue;
+    }
+    
+    .lienket {
+        margin-left: 6px;
+        margin-top: 20px;
+    }
+    
+    .left {
+        display: block;
+        width: 129px;
+        height: 29px;
+    }
+    /*content*/
+    
+    .chuchay {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .content {
+        width: 500px;
+        height: 800px;
+        float: left;
+    }
+    
+    .img-content {
+        overflow: hidden;
+    }
+    
+    .item-content {
+        float: left;
+    }
+    
+    .noidung {
+        margin-left: 10px;
+    }
+    
+    .abc {
+        width: 500px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    
+    .one {
+        width: 176px;
+        float: left;
+    }
+    
+    .p-one {
+        width: 300px;
+        float: right;
+        text-align: justify;
+        margin-right: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*side bar right*/
+    
+    .side-bar-right {
+        width: 140px;
+        height: 800px;
+        background-color: dodgerblue;
+        float: left;
+        text-align: center;
+    }
+    
+    .right {
+        margin-top: 10px;
+    }
+
+    .footter{
+        height: 30px;
+        text-align: center;
+        background-color:darkblue;
+        color: white;
+    }
+
+    .text-footter{
+        margin-top: 0;
+        height: 30px;
+        line-height: 30px;
+    }

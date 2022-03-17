@@ -1,0 +1,63 @@
+    #top {
+        margin-top: 0px;
+    }
+    
+    .right {
+        text-align: right;
+    }
+    
+    .mid {
+        width: 250px;
+    }
+    
+    #long {
+        width: 340px;
+    }
+    
+    #old {
+        width: 40px;
+    }
+    
+    #long_ {
+        width: 250px;
+    }
+    
+    #yeu_cau {
+        resize: none;
+        overflow-y: scroll;
+    }
+    
+    #top {
+        width: 600px;
+        margin: auto;
+    }
+    
+    #bottom {
+        width: 600px;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    #b {
+        float: right;
+    }
+    
+    #c {
+        float: right;
+    }
+    
+    #d {
+        float: right;
+    }
+    
+    #e {
+        float: right;
+        margin-right: 70px;
+    }
+    
+    table {
+        margin-right: 50px;
+    }

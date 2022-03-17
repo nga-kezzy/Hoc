@@ -1,0 +1,28 @@
+table {
+    width: 700px;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: #e0f9d9;
+    margin: auto;
+}
+
+td {
+    border: 1px solid;
+}
+
+#up {
+    width: 500px;
+    height: 30px;
+}
+
+.height {
+    height: 32px;
+}
+
+.big {
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}

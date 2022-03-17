@@ -1,0 +1,23 @@
+    table {
+        border: solid #ff0000;
+        width: 400px;
+        height: 140px;
+        border-collapse: collapse;
+    }
+    
+    td,
+    th {
+        border: solid #ff0000;
+    }
+    
+    .bg_color {
+        background-color: #ffcc33;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .right {
+        text-align: right;
+    }

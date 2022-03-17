@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bài 5.2: Đăng ký thông tin đăng nhập</title>
+    <link rel="stylesheet" href="style5.2.css">
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2" class="color">Thông tin đăng nhập</td>
+            </tr>
+            <tr>
+                <td class="padding_five">Chọn tên đăng nhập</td>
+                <td class="padding_five">
+                    <input type="text" class="mid" id="mid">
+                    <label for="mid" style="color: burlywood;"> vd:hoaithu</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Mật khẩu</td>
+                <td class="padding">
+                    <input type="password" class="min" id="min">
+                    <label for="min" style="color: burlywood;">(ít nhất 6 ký tự)</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Nhập lại mật khẩu</td>
+                <td class="padding">
+                    <input type="password" class="min">
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Ảnh avatar (nếu có)</td>
+                <td class="padding">
+                    <input type="text" class="mid">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Chọn tệp" id="img">Không có tệp nào được chọn
+                    <label for="img" style="color: burlywood;">(ảnh gif hoặc jpg)</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="color">Thông tin cá nhân</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="padding_five">Họ và tên</td>
+                <td class="padding_five">
+                    <input type="text" class="max">
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Địa chỉ email</td>
+                <td class="padding">
+                    <input type="text" class="max">
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Giới tính</td>
+                <td class="padding">
+                    <input name="gioitinh" type="radio">Nam
+                    <input name="gioitinh" type="radio">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td class="padding">Ngày sinh</td>
+                <td class="padding">
+                    Ngày <input type="number" class="width" max="31" min="1"> Tháng <input type="number" class="width" max="12" min="1"> Năm <input type="number" class="width" max="2021" min="1900">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Nơi ở</td>
+                <td>
+                    <select name="noi_o" class="click">
+                            <option value="0">Chọn tỉnh</option>
+                            <option value="1">Hà Nội</option>
+                            <option value="2">Quảng Ninh</option>
+                            <option value="3">Hồ Chí Minh</option>
+                            <option value="4">Đà Nẵng</option>
+                            <option value="5">Huế</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký tham gia" class="click">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

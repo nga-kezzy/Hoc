@@ -1,0 +1,27 @@
+table {
+    width: 500px;
+    background-color: burlywood;
+    border: solid black;
+    border-collapse: collapse;
+    color: green;
+}
+
+.width {
+    width: 90%;
+}
+
+#textarea {
+    texta
+}
+
+.pad {
+    padding-top: 10px;
+}
+
+.five_pad {
+    padding-top: 6px;
+}
+
+div {
+    width: 500px;
+}

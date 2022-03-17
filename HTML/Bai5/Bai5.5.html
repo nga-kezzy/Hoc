@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bài 5.5: Phiếu đăng ký</title>
+    <link rel="stylesheet" href="style5.5.css">
+</head>
+
+<body>
+    <div id="top" style="background-image: url(logo_bg.gif);">
+        <img src="lachong.gif" alt="ảnh lạc hồng" id="a">
+        <img src="adobe.gif" alt="" id="d">
+        <img src="dreamweaver.gif" alt="ảnh dreamweaver" id="c">
+        <img src="Flash.gif" alt="ảnh flas" id="b">
+        <img src="duongke.PNG" alt="đường kẻ" id="e">
+    </div>
+    <div id="bottom">
+        <h1>Phiếu đăng ký</h1>
+        <table>
+            <tr>
+                <td class="right">
+                    Họ và tên:
+                </td>
+                <td>
+                    <input type="text" class="mid">(*)
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    Địa chỉ:
+                </td>
+                <td>
+                    <input type="text" id="long">
+                </td>
+
+            </tr>
+            <tr>
+                <td class="right">
+                    Email:
+                </td>
+                <td>
+                    <input type="text" class="mid">(*)
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    Giới tính:
+                </td>
+                <td>
+                    <input name="gioi_tinh" type="radio">Nam <input name="gioi_tinh" type="radio">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    Tuổi:
+                </td>
+                <td>
+                    <input type="number" min="1" max="100" id="old">
+                </td>
+            </tr>
+            <tr>
+                <td id="top" class="right">
+                    Sở thích :
+                </td>
+                <td>
+                    <input name="like" type="checkbox">Thể thao <br>
+                    <input name="like" type="checkbox">Văn học <br>
+                    <input name="like" type="checkbox">Công nghệ thông tin <br>
+                    <input name="like" type="checkbox">Lịch sử <br>
+                    <input name="like" type="checkbox">Game
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Chuyên ngành:</td>
+                <td>
+                    <select name="chuyen_nganh" id="">
+                        <option value="0">Công nghệ web</option>
+                        <option value="1">Lập trình app</option>
+                        <option value="2">Lập trình Game</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    Gửi hình:
+                </td>
+                <td>
+                    <input type="text" id="long_"> <input type="submit" value="Browse...">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    Yêu cầu:
+                </td>
+                <td>
+                    <textarea name="yeu_cau" id="yeu_cau" cols="40" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi thông tin"> <input type="submit" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

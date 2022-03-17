@@ -1,0 +1,40 @@
+ table {
+     width: 700px;
+     height: 350px;
+     border-collapse: collapse;
+     border: solid black;
+     box-sizing: border-box;
+ }
+ 
+ td,
+ th {
+     border: solid black;
+ }
+ 
+ .width {
+     height: 230px;
+     width: 350px;
+     vertical-align: top;
+ }
+ 
+ img {
+     float: right;
+ }
+ 
+ .sqr {
+     list-style-type: square;
+     margin: 0px;
+     padding-top: 0px;
+ }
+ 
+ .disc {
+     list-style-type: disc;
+ }
+ 
+ #th1 {
+     background-color: #ff0000;
+ }
+ 
+ #th2 {
+     background-color: #ff99cc;
+ }

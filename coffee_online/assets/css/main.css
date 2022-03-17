@@ -1,0 +1,60 @@
+.main {
+    width: 700px;
+    margin: auto;
+}
+
+
+/*Header*/
+
+.header {
+    width: 100%;
+    height: 60px;
+}
+
+
+/*side bar*/
+
+.side-bar {
+    width: 150px;
+    height: 700px;
+    float: left;
+    position: relative;
+}
+
+.img-side-bar {
+    list-style-type: none;
+    float: right;
+}
+
+
+
+.logo-side-bar {
+    height: 190px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*Content*/
+
+.content-2 {
+    width: 550px;
+    height: 700px;
+    float: right;
+    background-color: sandybrown;
+    position: relative;
+}
+
+table{
+    width: 480px;
+    margin: auto;
+}
+/*Logo*/
+
+.logo-container {
+    height: 130px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}

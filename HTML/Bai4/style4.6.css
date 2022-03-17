@@ -1,0 +1,20 @@
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+    border: solid black;
+}
+
+.bgcolor {
+    background: #f63;
+    color: #fff;
+}
+
+td,
+th {
+    border: solid black;
+}
+
+.redcolor {
+    background: #f00;
+}

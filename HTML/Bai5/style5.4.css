@@ -1,0 +1,43 @@
+#center {
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ffc;
+    margin: auto;
+    color: green;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.height {
+    height: 32px;
+    width: 400px;
+}
+
+fieldset {
+    width: 500px;
+    height: 60px;
+    margin: auto;
+}
+
+.small {
+    width: 60px;
+}
+
+.width {
+    width: 300px;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
